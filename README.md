@@ -14,8 +14,10 @@ Note: Bootstrapped with Nestjs CLI, so please ensure you have it installed.
 3. Get a particular task `GET /tasks/:id`
 4. Delete a task `DELETE /tasks/:id`
 5. Update the status of a task `PATCH /tasks/:id/status`
+6. Filter by search term `GET /tasks?search=yoursearchquery`
+7. Filter by status `GET /tasks?status=OPEN`
 
 ### TODO
-1. Search/Filter functionality
+1. ~~Search/Filter functionality~~
 2. Validation
 3. Integration with a DB
